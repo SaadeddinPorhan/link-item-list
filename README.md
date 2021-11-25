@@ -1,6 +1,9 @@
 # link-item-list
 Link Item List Application written with React.js
 
+# you can run the unit test with `npm test` command
+Runs the test in respository
+
 # you can run the server with `npm start` command
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
