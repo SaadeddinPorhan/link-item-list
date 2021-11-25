@@ -2,7 +2,7 @@ import './App.css';
 import Links from './components/Links';
 import NewItem from './components/NewItem';
 import { useState } from 'react'
-import { FaPlus } from 'react-icons/fa';
+import { FaPlus,FaArrowLeft } from 'react-icons/fa';
 import ItemOrderBy from './components/ItemOrderBy';
 
 const initItemList = [
@@ -50,7 +50,7 @@ function App() {
   if (isInsertPage){
     return (
       <div className="App">
-      <button onClick={returnClicked}>Return to List Menu</button>
+      <button className="return-button" onClick={returnClicked}> <FaArrowLeft /> Return to List Menu</button>
         <NewItem onAddNewItem={addNewLinkItem} ></NewItem>
       </div>
     );
