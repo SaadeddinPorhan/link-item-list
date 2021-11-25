@@ -1,0 +1,80 @@
+.link-item_point {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 4.5rem;
+    border: 1px solid #ececec;
+    background-color: #D8D8D8;
+    color: #2a2a2a;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+  }
+  .link-item_detail {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 4.5rem;
+    border: 1px solid #ececec;
+    color: black;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+  }
+ 
+  .link-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  
+  .link-item h2 {
+    font-size: 1.3rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: black;
+  }
+  
+  .link-item_description{
+      justify-content: space-between;
+  }
+
+  .link-item__name{
+    font-size: larger;
+    font-weight: bold;
+}
+.delete-button{
+  position: relative;
+  top: 0px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.delete-button-main{
+  position: relative;
+  top: -30px;
+  left: -15px;
+}
+
+.vote-buttons{
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+.upvote-button{
+  padding: 0;
+  border: none;
+  background: none;
+}
+.downvote-button{
+  padding: 0;
+  border: none;
+  background: none;
+}

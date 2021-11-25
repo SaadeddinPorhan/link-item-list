@@ -1,0 +1,16 @@
+.link-list-order {
+    color: white;
+    padding: 0 1rem;
+  }
+  
+  .link-list-order label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .link-list-order select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
